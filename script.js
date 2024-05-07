@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
     counters[1].textContent = 50 * i;
     counters[2].textContent = 75 * i;
     i++;
-    if (i == 101) {
+    if (i> 100) {
       clearInterval(interv);
     }
   }, 10);
