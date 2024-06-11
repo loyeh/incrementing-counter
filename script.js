@@ -1,7 +1,4 @@
-let counters = document.querySelectorAll(".counter");
-counters = Array.from(counters);
-
-console.log(counters);
+const counters = Array.from(document.querySelectorAll(".counter"));
 
 window.addEventListener("load", () => {
   let i = 0;
